@@ -8,7 +8,8 @@ async function getJoke(){
     let jokedata = await jokeContainer.json();
     joke.classList.add('fade');
     joke.textContent = jokedata.joke;
-    console.log(jokedata.joke);
+    // console.log(jokedata.joke);
+    // console.log(jokedata);
 }
 
 button.addEventListener('click',getJoke);

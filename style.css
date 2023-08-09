@@ -8,16 +8,15 @@ body{
     background-color: #fab22e;
     width: 100vw;
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .wrapper{
     width: 80vmin;
     padding: 30px 40px;
     background-color: #15161a;
-    position: absolute;
-    transform: translate(-50%,-50%);
-    top: 50%;
-    left: 50%;
     border-radius: 5px;
     box-shadow: 20px 20px 40px rgba(97,63,0,0.4);
 }
